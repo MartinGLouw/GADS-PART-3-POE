@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RandomCardGenerator : MonoBehaviour
 {
@@ -79,11 +80,31 @@ public class RandomCardGenerator : MonoBehaviour
 
         // Start new round
         InitializeCards();
-        if (playerRoundWins >= 2 || pcRoundWins >= 2)
+        if (playerScore >= 5 || pcScore >= 5)
         {
-            // Game over
-            Debug.Log("Game Over");
-            
+            if (playerScore > pcScore)
+            {
+                // Player wins round
+                playerRoundWins++;
+            }
+            else if (pcScore > playerScore)
+            {
+                // PC wins round
+                pcRoundWins++;
+            }
+            round++;
+            playerTotalScore += playerScore;
+            pcTotalScore += pcScore;
+            playerScore = 0;
+            pcScore = 0;
+
+            if (playerRoundWins >= 2 || pcRoundWins >= 2)
+            {
+                // Game over
+                Debug.Log("Game Over");
+                SceneManager.LoadScene("EndScreen");
+                
+            }
         }
     }
 
