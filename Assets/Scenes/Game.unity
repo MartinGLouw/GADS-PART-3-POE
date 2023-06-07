@@ -1150,10 +1150,10 @@ MonoBehaviour:
   playerCardSpawnPoint: {fileID: 1687255174}
   pcCardSpawnPoint: {fileID: 486909420}
   round: 1
-  playerScore: 4
-  pcScore: 4
-  playerRoundWins: 1
-  pcRoundWins: 1
+  playerScore: 0
+  pcScore: 0
+  playerRoundWins: 0
+  pcRoundWins: 0
   playerTotalScore: 0
   pcTotalScore: 0
 --- !u!4 &1355987027
