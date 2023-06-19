@@ -51,18 +51,18 @@ public class RandomCardGenerator : MonoBehaviour
         // Use playerCard and pcCard here
         playerCardObject = Instantiate(playerCard.prefab, playerCardSpawnPoint.position, playerCardSpawnPoint.rotation);
 
-        // Spawn PC card facing away from camera
-        Quaternion pcRotation = Quaternion.LookRotation(pcCardSpawnPoint.position - Camera.main.transform.position);
-        pcRotation *= Quaternion.Euler(0, 180, 0);
-        pcCardObject = Instantiate(pcCard.prefab, pcCardSpawnPoint.position, pcRotation);
+        // Spawn PC card facing horizon
+        pcCardObject = Instantiate(pcCard.prefab, pcCardSpawnPoint.position, Quaternion.identity);
+        pcCardObject.transform.rotation = Quaternion.Euler(0, 180, 0);
 
         isButtonPressed = false;
     }
 
+
     IEnumerator ShowPcCardAndStartNewRound()
     {
-        // Rotate PC card to face camera
-        Quaternion targetRotation = Quaternion.LookRotation(pcCardSpawnPoint.position - Camera.main.transform.position);
+        // Rotate PC card 180 degrees around y-axis
+        Quaternion targetRotation = pcCardObject.transform.rotation * Quaternion.Euler(0, 180, 0);
         float duration = 1f;
         float elapsedTime = 0f;
         while (elapsedTime < duration)
@@ -103,10 +103,11 @@ public class RandomCardGenerator : MonoBehaviour
                 // Game over
                 Debug.Log("Game Over");
                 SceneManager.LoadScene("EndScreen");
-                
+            
             }
         }
     }
+
 
     public void Health()
     {
@@ -244,12 +245,12 @@ public class RandomCardGenerator : MonoBehaviour
              }
          }
 
-         if (playerCard.speed > pcCard.speed)
+         if (playerCard.agility > pcCard.agility)
          {
              // Player wins
              playerScore++;
          }
-         else if (playerCard.speed < pcCard.speed)
+         else if (playerCard.agility < pcCard.agility)
          {
              // PC wins
              pcScore++;
@@ -271,6 +272,6 @@ public class Card
      public string Name;
      public int health;
      public int strength;
-     public int speed;
+     public int agility;
      public GameObject prefab;
 }

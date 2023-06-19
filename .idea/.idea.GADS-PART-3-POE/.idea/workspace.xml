@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightFlicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomCardGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -81,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686128735037</updated>
       <workItem from="1686128738022" duration="8323000" />
-      <workItem from="1686143852731" duration="1121000" />
+      <workItem from="1686143852731" duration="1122000" />
+      <workItem from="1687178746328" duration="2757000" />
     </task>
     <servers />
   </component>
