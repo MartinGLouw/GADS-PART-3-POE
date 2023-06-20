@@ -1143,11 +1143,11 @@ MonoBehaviour:
     strength: 7
     agility: 10
     prefab: {fileID: 5369704294591073287, guid: 026ed5360da95a04899ee8a2f6e81439, type: 3}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
+  - Name: Ogun
+    health: 6
+    strength: 7
+    agility: 8
+    prefab: {fileID: 5369704294591073287, guid: 13304627279b8f74092f166e413569fa, type: 3}
   playerCardSpawnPoint: {fileID: 1687255174}
   pcCardSpawnPoint: {fileID: 486909420}
   round: 1

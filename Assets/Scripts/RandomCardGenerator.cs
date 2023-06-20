@@ -42,8 +42,8 @@ public class RandomCardGenerator : MonoBehaviour
             Destroy(pcCardObject);
         }
 
-        playerCardIndex = Random.Range(0, 18);
-        pcCardIndex = Random.Range(0, 18);
+        playerCardIndex = Random.Range(0, 19);
+        pcCardIndex = Random.Range(0, 19);
 
         playerCard = cards[playerCardIndex];
         pcCard = cards[pcCardIndex];
