@@ -1054,95 +1054,95 @@ MonoBehaviour:
     agility: 4
     prefab: {fileID: 1198604214200752846, guid: 0747a214ee5a12f41a496c0a83fa762d, type: 3}
   - Name: Odin
-    health: 9
+    health: 10
     strength: 8
-    agility: 0
-    prefab: {fileID: 4764195171785453869, guid: fde4752ce93015547860815d6fa99d8e, type: 3}
+    agility: 5
+    prefab: {fileID: 5369704294591073287, guid: cc546092ca2891e4c87a8ed32925cff6, type: 3}
   - Name: Afrodites
-    health: 7
-    strength: 3
-    agility: 0
+    health: 1
+    strength: 2
+    agility: 3
     prefab: {fileID: 5369704294591073287, guid: 9e741506960b1ca48935f443b5a712cb, type: 3}
   - Name: Thor
     health: 10
     strength: 8
     agility: 6
     prefab: {fileID: 1198604214200752846, guid: 2c27b6c96e312304ea886accc5de1a21, type: 3}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
-  - Name: 
-    health: 0
-    strength: 0
-    agility: 0
-    prefab: {fileID: 0}
+  - Name: Androa
+    health: 5
+    strength: 3
+    agility: 5
+    prefab: {fileID: 5369704294591073287, guid: 839c6c17ecb690445973cc22e53cc27c, type: 3}
+  - Name: Amun
+    health: 8
+    strength: 9
+    agility: 4
+    prefab: {fileID: 5369704294591073287, guid: e5bc2cb1b72798c4fa0e65c875aad1d2, type: 3}
+  - Name: Ameterasu
+    health: 5
+    strength: 5
+    agility: 8
+    prefab: {fileID: 5369704294591073287, guid: 2da24ad2caf447c48a526db533bce6ca, type: 3}
+  - Name: Anansi
+    health: 6
+    strength: 6
+    agility: 10
+    prefab: {fileID: 5369704294591073287, guid: 7c30b622b03f1a14c9a3214dd7d28987, type: 3}
+  - Name: Anubis
+    health: 4
+    strength: 4
+    agility: 7
+    prefab: {fileID: 5369704294591073287, guid: 5dbe44da11990994e9f0642c00dc1a6e, type: 3}
+  - Name: Ebisu
+    health: 7
+    strength: 8
+    agility: 2
+    prefab: {fileID: 5369704294591073287, guid: 2085f4e640d153445836f269669acd05, type: 3}
+  - Name: Fenrir
+    health: 3
+    strength: 8
+    agility: 8
+    prefab: {fileID: 5369704294591073287, guid: 7f52e027157628741a75b5368afe463f, type: 3}
+  - Name: Horus
+    health: 9
+    strength: 10
+    agility: 7
+    prefab: {fileID: 5369704294591073287, guid: a5022234110b04841b6a0730658ab939, type: 3}
+  - Name: Izanagi
+    health: 7
+    strength: 7
+    agility: 9
+    prefab: {fileID: 5369704294591073287, guid: d41249435c89efc4b8e487d2bcc04b0d, type: 3}
+  - Name: Loki
+    health: 7
+    strength: 6
+    agility: 8
+    prefab: {fileID: 5369704294591073287, guid: 5ff71e848bf3f3142bcec6135b7c450e, type: 3}
+  - Name: Medusa
+    health: 6
+    strength: 5
+    agility: 7
+    prefab: {fileID: 5369704294591073287, guid: 348c053b6d8c42d4f8dcf7d958cde7ba, type: 3}
+  - Name: Osiris
+    health: 9
+    strength: 8
+    agility: 6
+    prefab: {fileID: 5369704294591073287, guid: 998273c2757becf4dafccabc3cc96146, type: 3}
+  - Name: Poseidon
+    health: 7
+    strength: 7
+    agility: 9
+    prefab: {fileID: 5369704294591073287, guid: a891d07e22362aa478ca8eeddaaf41ab, type: 3}
+  - Name: Shango
+    health: 7
+    strength: 6
+    agility: 8
+    prefab: {fileID: 5369704294591073287, guid: 27d90a1ccf1e0124b97e0b442cc2bc32, type: 3}
+  - Name: Shinigami
+    health: 4
+    strength: 7
+    agility: 10
+    prefab: {fileID: 5369704294591073287, guid: 026ed5360da95a04899ee8a2f6e81439, type: 3}
   - Name: 
     health: 0
     strength: 0
